@@ -3,17 +3,13 @@
 ========================= */
 
 .controller.custom {
-    position: relative;
-
     width: 1369px;
     height: 804px;
 
-    background-image: url(https://raw.githubusercontent.com/yokan35392/yokan_controller/refs/heads/main/images/base.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/yokan35392/yokan_controller/refs/heads/main/Images/base.png);
 }
 .custom.disconnected {
-    background: url(https://raw.githubusercontent.com/yokan35392/yokan_controller/refs/heads/main/images/disconnected.png);
+    background: url(https://raw.githubusercontent.com/yokan35392/yokan_controller/refs/heads/main/Images/disconnected.png);
 }
 
 
