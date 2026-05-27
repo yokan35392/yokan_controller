@@ -1,0 +1,170 @@
+/* =========================
+   コントローラー本体
+========================= */
+
+.controller.custom {
+    position: relative;
+
+    width: 1369px;
+    height: 804px;
+
+    background-image: url(https://raw.githubusercontent.com/yokan35392/yokan_controller/refs/heads/main/images/base.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.custom.disconnected {
+    background: url(https://raw.githubusercontent.com/yokan35392/yokan_controller/refs/heads/main/images/disconnected.png);
+}
+
+
+/* =========================
+   共通設定
+========================= */
+
+[class^="button-"],
+.stick-1,
+.stick-2,
+.touch-pad {
+    position: absolute;
+    inset: 0;
+
+    opacity: 0;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    pointer-events: none;
+}
+
+
+/* =========================
+   フェイスボタン
+========================= */
+
+.button-1.pressed {
+    opacity: 1;
+    background-image: url("cross.png");
+}
+
+.button-2.pressed {
+    opacity: 1;
+    background-image: url("circle.png");
+}
+
+.button-3.pressed {
+    opacity: 1;
+    background-image: url("square.png");
+}
+
+.button-4.pressed {
+    opacity: 1;
+    background-image: url("triangle.png");
+}
+
+
+/* =========================
+   ショルダーボタン
+========================= */
+
+.button-left-shoulder-top.pressed {
+    opacity: 1;
+    background-image: url("l1.png");
+}
+
+.button-right-shoulder-top.pressed {
+    opacity: 1;
+    background-image: url("r1.png");
+}
+
+
+/* =========================
+   トリガー
+========================= */
+
+.button-left-shoulder-bottom.pressed,
+.button-left-shoulder-bottom-digital.pressed {
+    opacity: 1;
+    background-image: url("l2.png");
+}
+
+.button-right-shoulder-bottom.pressed,
+.button-right-shoulder-bottom-digital.pressed {
+    opacity: 1;
+    background-image: url("r2.png");
+}
+
+
+/* =========================
+   セレクト / スタート
+========================= */
+
+.button-select.pressed {
+    opacity: 1;
+    background-image: url("create.png");
+}
+
+.button-start.pressed {
+    opacity: 1;
+    background-image: url("options.png");
+}
+
+
+/* =========================
+   スティック押し込み
+========================= */
+
+.stick-1.pressed {
+    opacity: 1;
+    background-image: url("l3.png");
+}
+
+.stick-2.pressed {
+    opacity: 1;
+    background-image: url("r3.png");
+}
+
+
+/* =========================
+   十字キー
+========================= */
+
+.button-dpad-top.pressed {
+    opacity: 1;
+    background-image: url("dpad-up.png");
+}
+
+.button-dpad-bottom.pressed {
+    opacity: 1;
+    background-image: url("dpad-down.png");
+}
+
+.button-dpad-left.pressed {
+    opacity: 1;
+    background-image: url("dpad-left.png");
+}
+
+.button-dpad-right.pressed {
+    opacity: 1;
+    background-image: url(https://raw.githubusercontent.com/yokan35392/yokan_controller/refs/heads/main/images/B15_right.png);
+}
+
+
+/* =========================
+   PSボタン
+========================= */
+
+.button-meta.pressed {
+    opacity: 1;
+    background-image: url("ps-button.png");
+}
+
+
+/* =========================
+   タッチパッド
+========================= */
+
+.touch-pad.pressed {
+    opacity: 1;
+    background-image: url("touchpad.png");
+}
